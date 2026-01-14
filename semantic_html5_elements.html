@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META CHARSET ENSURE CORRECT CHARACTER RENDERING -->
+    <meta charset="UTF-8">
+
+    <!-- MAKE PAGE RESPONSIVE ON ALL DEVICE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PAGE TITLE SHOWN IN BROWSER TAB -->
+    <title>MY DAY 1 - HTML5 PAGE</title>
+
+    <!-- OPTIONAL: EXTERNAL LINK-->
+</head>
+<body>
+    <!-- HEADER: USUALLY CONTAINS LOGO AND NAVIGATION -->
+     <header>
+        <h1>Welcome to My Website</h1>
+
+        <!-- NAVIGATION: LINKS TO DIFFERENT SECTION -->
+         <nav>
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+         </nav>
+    </header>
+
+    <!-- MAIN: THE MAIN CONTENT OF THE PAGE -->
+     <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nam vel consequatur iusto omnis, delectus perspiciatis, iste libero ipsa reprehenderit placeat, labore et assumenda cupiditate in aspernatur quis atque quidem.</p>
+            <!-- Image: Add an image -->
+             <img src="./images.png" alt="my profile picture">
+        </section>
+
+        <!-- ARTICLE: Self-contained content -->
+         <article id="projects">
+            <h2>My Projects</h2>
+            <p>Here are some of the projects I am working on:</p>
+            <ul>
+                <li>Personal Portfolio Website</li>
+                <li>Simple Blog Platform</li>
+                <li>HTML5 Learning Pages</li>
+            </ul>
+         </article>
+
+         <!-- ASIDE: Sidebar or extra information -->
+          <aside>
+            <h3>Tip:</h3>
+            <p>Use semantic HTML5 elements for better accessibility and SEO</p>
+          </aside>
+
+          <!-- FORM -->
+           <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <br><br>
+
+                <label for="message">Message:</label>
+                <br>
+                <textarea name="message" id="message" placeholder="Write your message here"></textarea>
+                <br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+           </section>
+     </main>
+
+     <!-- FOOTER -->
+      <footer>
+        <p>&copy; 2026 Mehedi's Website | All Rights Reserved</p>
+      </footer>
+</body>
+</html>
