@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Input (Intro)</title>
+</head>
+
+<body>
+    <form>
+        <!-- FULL NAME -->
+        <label for="fullName">Full Name:</label>
+        <input type="text" name="fullName" id="fullName" placeholder="Your full name" required>
+        <br><br>
+
+        <!-- EMAIL -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Your email" required>
+        <br><br>
+
+        <!-- PASSWORD -->
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <!-- AGE -->
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" min="1" max="120" placeholder="Your age">
+        <br><br>
+
+        <!-- GENDER -->
+        <p>Gender:</p>
+        <label><input type="radio" name="gender" id="gender" value="male">Fale</label>
+        <label><input type="radio" name="gender" id="gender" value="female">Male</label>
+        <label><input type="radio" name="gender" id="gender" value="other">Other</label>
+        <br><br>
+
+        <!-- HOBBIES -->
+        <p>Selec your hobbies:</p>
+        <label><input type="checkbox" name="hobbies" value="coding"> Coding</label>
+        <label><input type="checkbox" name="hobbies" value="reading"> Reading</label>
+        <label><input type="checkbox" name="hobbies" value="gaming"> Gaming</label>
+        <br><br>
+
+        <!-- COUNTRY DROPDOWN -->
+         <label for="country">Country:</label>
+         <select name="country" id="country">
+            <option value="">--Select Your Country--</option>
+            <option value="bd">Bangladesh</option>
+            <option value="cn">China</option>
+            <option value="us">USA</option>
+            <option value="uk">UK</option>
+         </select>
+         <br><br>
+
+         <!-- MESSAGE -->
+          <label for="message">Message / Feedback:</label>
+          <textarea name="message" id="message" placeholder="Write your message here"></textarea>
+          <br><br>
+
+          <!-- SUBMIT & RESET BUTTONS -->
+           <button type="submit">Submit</button>
+           <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
