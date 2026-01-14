@@ -1,0 +1,16 @@
+- html structure 
+- basic tags 
+- semantic html5 elements 
+- forms & input (intro)
+- attributes 
+
+mini project for today; 
+- build a personal bio page with 
+    - header with your name 
+    - a nav bar with 2-3 links 
+    - a section introducing yourself with text and an image 
+    - a footer with contact info 
+
+pro tip; 
+- always use semantic elements - it's critical for accessibility and seo 
+- validate your html with w3validator 
